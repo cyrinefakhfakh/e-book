@@ -1,0 +1,46 @@
+body{
+    background-image: url("Desktop\ -\ 2.png");
+    background-size: cover;
+}
+h1{
+    color: #00305E;
+    margin-top: 150px;
+    margin-left: 80px;
+    font-size: 60px;
+    
+}
+h2{
+    color: #cb7742;
+    margin-left: 150px;
+    font-size: 40px;
+    margin-top: 30px;
+    width: 650px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+nav a{
+    color: #00305E; 
+    float: right; /* effet flottant */
+    text-decoration: none; /* pas d'héritage avec effet souligné */
+    height: 36px; /* hauteur */
+    line-height: 33px; /* interligne */
+    padding: 0 70px; /* marges intérieur */
+    font-family: sans-serif; /* police d'écriture */
+    font-size: 26px; /* taille du texte */
+    transition: .5s; /* temps de transition lors du hover : une demi seconde */
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+    }
+
+
+
+nav  a:hover{ /* tous liens lors du survol dans la balise nav */
+color: #cb7742; /* couleur de fond */
+text-decoration: none;
+
+    
+}
+nav a:active{
+    color: #cb7742;
+    text-decoration: none;
+}
