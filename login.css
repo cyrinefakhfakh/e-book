@@ -43,7 +43,17 @@ button {
     background-color: #F49E6A;
     color: #1B3248;
     margin: 30px 320px;
-    cursor: pointer; }
+    cursor: pointer;
+    transition: .5s;
+    
+ }
+
+button:hover{
+    background-color:#031d36 ;
+    color: #F49E6A;
+   
+}
+
 p{
     color:#E1F6F7;
     margin-left: 270px;
