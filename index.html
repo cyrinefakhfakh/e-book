@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-book</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Welcome to E-Books Website</h1>
+    <h2>This website allows you to read books for free and online. You can find funny books,romantic books,scary ones...</h2>
+
+<button class="logi" id="loginForm">log in</button>
+<button class="sign" id="sign">sign up</button>
+
+<script>
+    document.getElementById("loginForm").addEventListener("click", function(event) {
+        event.preventDefault();
+        window.location.href = "login.html";
+    });
+    document.getElementById("sign").addEventListener("click", function(event) {
+        event.preventDefault();
+        window.location.href = "sign.html";
+    });
+</script>
+    
+</body>
+</html>
