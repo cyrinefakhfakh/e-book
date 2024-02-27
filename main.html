@@ -23,30 +23,43 @@
         <h1>Welcome to E-Books Website</h1>
         <h2>This website allows you to read books for free and online. You can find funny books,romantic books,scary ones...</h2>
     
-<button class="logi" >log in</button>
-<button class="sign">sign up</button>
+<button class="logi" id="loginForm">log in</button>
+<button class="sign" id="sign">sign up</button>
 <div class="container">
 <h1>Books Types</h1>
 </div>
 <button id="funny" >Funny</button>
-<button class="romantic">Romantic</button>
-<button class="scary">Scary</button>
-<button class="adventure">Adventure</button>
-<button class="action">Action</button>
-<button class="drama">Drama</button>
-<button class="mystery">Mystery</button>
+<button id="romantic">Romantic</button>
+<button id="scary">Scary</button>
+<button id="adventure">Adventure</button>
+<button id="action">Action</button>
+<button id="drama">Drama</button>
+<button id="mystery">Mystery</button>
 
 <script>
-    // Add event listener to the button
-    document.getElementById('funny').addEventListener('click', function() {
-        // Open the funny.html page
-    window.open('funny.html');
+    
+    document.getElementById('funny').addEventListener('click', function(event) {
+        event.preventDefault();
+        window.location.href='funny.html';
     });
+
+
+    document.addEventListener("DOMContentLoaded", function() {
+        document.getElementById("loginForm").addEventListener("click", function(event) {
+            event.preventDefault();
+            window.location.href = "login.html";
+        });
+    });
+
+    
+        document.addEventListener("DOMContentLoaded", function() {
+            document.getElementById("sign").addEventListener("click", function(event) {
+                event.preventDefault();
+                window.location.href = "sign.html";
+            });
+        });
+    
 </script>
-
-
-
-
 
 
 
