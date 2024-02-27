@@ -1,5 +1,5 @@
 body{
-    background-image: url("Desktop\ -\ 2.png");
+    background-image: url("Desktop\ -\ 2\ \(1\).png");
     background-size: cover;
 }
 h1{
@@ -22,6 +22,11 @@ nav{
     background-color: #0e0631;
     padding: 10px;
     margin-bottom: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+    left: 0;
 }
 nav a{
     color: #e9ab5a;
@@ -73,14 +78,14 @@ button.sign{
 .container{
     margin-top: 350px;
     margin-left: 500px;
-    color: #00305E;
+    color: #cb7742;
     font-size: 40px;
     font-family: 'Poppins', sans-serif;
 }
 button{
     border-radius: 100%;
-    background-color: #00305E;
-    color: white;
+    background-color: #cb7742;
+    color: #00305E;
     padding: 30px 30px;
     font-size: 20px;
     border: none;
@@ -91,6 +96,13 @@ button{
     margin-bottom: 100px;
 }
 button:hover{
-    background-color:#cb7742 ;
-    color: white;
+    background-color:#00305E ;
+    color: #cb7742;
+}
+p{
+    color: #cb7742;
+    font-size: 50px;
+    margin-left: 90px;
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
 }

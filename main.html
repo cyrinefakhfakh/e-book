@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
 
-    <!-- CSS only -->
+    <meta charset="UTF-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
@@ -26,7 +25,7 @@
 <button class="logi" id="loginForm">log in</button>
 <button class="sign" id="sign">sign up</button>
 <div class="container">
-<h1>Books Types</h1>
+<p>Books Types</p>
 </div>
 <button id="funny" >Funny</button>
 <button id="romantic">Romantic</button>
@@ -41,6 +40,18 @@
     document.getElementById('funny').addEventListener('click', function(event) {
         event.preventDefault();
         window.location.href='funny.html';
+    });
+    document.getElementById('romantic').addEventListener('click', function(event) {
+        event.preventDefault();
+        window.location.href='romantic.html';
+    });
+    document.getElementById('scary').addEventListener('click', function(event) {
+        event.preventDefault();
+        window.location.href='scary.html';
+    });
+    document.getElementById('adventure').addEventListener('click', function(event) {
+        event.preventDefault();
+        window.location.href='adventure.html';
     });
 
 

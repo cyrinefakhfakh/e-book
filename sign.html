@@ -7,6 +7,31 @@
     <link rel="stylesheet" href="sign.css">
 </head>
 <body>
+    <h1>Sign up</h1>
+    <form action="sign.php" method="post" id="signForm">
+        <label for="username">Username</label>
+        <br>
+        <input type="text" name="username" placeholder="Username" >
+        <br>
+        <label for="password">Password</label>
+        <br> 
+        <input type="password" name="password" placeholder="Password" >
+        <br>
+        <label for="password">retape Password</label>
+        <br> 
+        <input type="password" name="password" placeholder="Password" >
+        <br>
+        <button type="submit">Sign up</button>
+    </form>
+    <p>Already have an account <a href="login.html">Login</a></p>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            document.getElementById("signForm").addEventListener("submit", function(event) {
+                event.preventDefault();
+                window.location.href = "main.html";
+            });
+        });
+    </script>
     
 </body>
 </html>
