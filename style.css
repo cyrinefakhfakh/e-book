@@ -1,5 +1,5 @@
 body{
-    background-image: url("Desktop\ -\ 2\ \(1\).png");
+    background-image: url("Desktop\ -\ 2\ \(2\).png");
     background-size: cover;
 }
 h1{
@@ -48,7 +48,7 @@ button.logi{
     background-color: #00305E;
     color: white;
     padding: 10px 20px;
-    font-size: 10px;
+    font-size: 20px;
     border: none;
     cursor: pointer;
     border-radius: 5px;
@@ -69,7 +69,7 @@ button.sign{
     background-color: #cb7742;
     color: white;
     padding: 10px 20px;
-    font-size: 10px;
+    font-size: 20px;
     border: none;
     cursor: pointer;
     border-radius: 5px;
