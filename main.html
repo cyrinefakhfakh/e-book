@@ -16,10 +16,12 @@
     </nav>
     <br>
         <h1>Welcome to E-Books Website</h1>
-        <p id="par">This website allows you to read books for free and online. You can find funny books,romantic books,scary ones...</p>
+        <p id="par">This website allows you to read books for free and online. You can find funny books,romantic books,scary ones...
+        You can also sign up and add your own books to the website. Enjoy reading!
+        </p>
     
-<button class="logi" id="loginForm">log in</button>
-<button class="sign" id="sign">sign up</button>
+<button class="create" id="create">create</button>
+
 <div class="container">
 <p>Books Types</p>
 </div>
@@ -35,6 +37,10 @@
 </div>
 
 <script>
+    document.getElementById('create').addEventListener('click', function(event) {
+        event.preventDefault();
+        window.location.href='mybook.html';
+    });
     
     document.getElementById('funny').addEventListener('click', function(event) {
         event.preventDefault();
