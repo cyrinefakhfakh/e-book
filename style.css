@@ -88,11 +88,12 @@ button{
     border-radius: 100%;
     background-color: #cb7742;
     color: #00305E;
-    padding: 30px 30px;
+    padding: 20px 20px;
     font-size: 20px;
     border: none;
     cursor: pointer;
-    margin-left: 90px;
+    margin-left: 40px;
+    
     margin-top: 30px;
     transition: .5s;
     margin-bottom: 100px;
@@ -107,4 +108,8 @@ p{
     margin-left: 90px;
     margin-top: 30px;
     font-family: 'Poppins', sans-serif;
+}
+.type{
+    margin-left: 300px;
+    
 }
