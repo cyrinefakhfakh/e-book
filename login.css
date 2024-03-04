@@ -40,28 +40,23 @@ button {
     border-radius: 5px;
     border: none; 
     font-size: 1.2rem;
-    background-color: #F49E6A;
-    color: #1B3248;
+    background-color: #E9D8CB;
+    color: #381F17;
     margin: 30px 320px;
     cursor: pointer;
     transition: .5s;
     
  }
 
-button:hover{
-    background-color:#031d36 ;
-    color: #F49E6A;
-   
-}
 
 p{
-    color:#E1F6F7;
+    color:#f3fcfd;
     margin-left: 270px;
     font-size: 20px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 a{
-    color:#a9eef2;
+    color:#f5d3bd;
     font-size: 20px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

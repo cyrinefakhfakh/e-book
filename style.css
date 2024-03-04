@@ -75,17 +75,17 @@ button.logi{
     font-family: 'Poppins', sans-serif;
 }
 button.logi:hover{
-    background-color:#cb7742 ;
+    background-color:#381F17 ;
     color: white;
 }
 button.sign:hover{
-    background-color:#00305E ;
+    background-color:#a7715f ;
     color: white;
 }
 button.sign{
     margin-left: 20px;
     margin-top: 50px;
-    background-color: #cb7742;
+    background-color: #a7715f;
     color: white;
     padding: 10px 20px;
     font-size: 20px;

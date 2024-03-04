@@ -1,5 +1,6 @@
 body{
-    background: url("sign(2).png");
+    background: url("sign\ \(2\).png");
+    background-repeat: no-repeat;
     background-size: cover;
     margin-top: 100px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

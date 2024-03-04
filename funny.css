@@ -11,28 +11,29 @@ img{
     margin-left: 100px;
     
 }
-.topnav{
-    background-color: #E9D8CB;
-    overflow: hidden;
-    padding: 10px;
-    margin-bottom: 20px;
-    position: fixed;
-    width: 100%;
-    z-index: 100;
-    top: 0;
-    left: 0;
-
+.container{
+    margin-top: 350px;
+   text-align: center;
+    color: #381F17;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
    
 }
-.topnav a{
+button{
+    border-radius: 100%;
+    background-color: #c39586;
     color: #381F17;
-    text-decoration: none;
-    margin: 0 10px;
-    padding: 14px 16px;
+    padding: 20px 20px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    margin-left: 70px;
     
-
-  
+    margin-top: 200px;
+    transition: .5s;
+    margin-bottom: 100px;
 }
+
 
 
 h1{
