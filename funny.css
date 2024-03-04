@@ -1,5 +1,5 @@
 body{
-    background-image: url("Desktop\ -\ 4\ \(3\).png");
+    background-image: url("backround\ \(1\).png");
     background-size: cover;      
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -12,7 +12,7 @@ img{
     
 }
 .topnav{
-    background-color: #0e0631;
+    background-color: #E9D8CB;
     overflow: hidden;
     padding: 10px;
     margin-bottom: 20px;
@@ -25,7 +25,7 @@ img{
    
 }
 .topnav a{
-    color: #e9ab5a;
+    color: #381F17;
     text-decoration: none;
     margin: 0 10px;
     padding: 14px 16px;
@@ -33,17 +33,11 @@ img{
 
   
 }
- a:hover{
-    color: #fff;
-text-decoration: none;
-}
- a:active{
-    color: #ff6200;
-    text-decoration: none;
-}
+
+
 h1{
     font-size: 3.5rem;
-    color: #0c2048;
+    color: #E9D8CB;
     margin-left: 200px;
     margin-top: 0px;
     font-family:cursive;
