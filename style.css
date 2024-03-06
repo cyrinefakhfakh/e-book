@@ -127,3 +127,22 @@ p{
     margin-left: 100px;
 
 }
+
+
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #000;
+}
+footer{
+    background-color: #e1b2a3;
+    
+}
+
+
+

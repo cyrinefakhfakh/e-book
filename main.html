@@ -9,8 +9,9 @@
     
     <nav>
         <a href="main.html">Home</a>
-        <a href="mybook.html">My Books</a>
-        <a href="">About me</a>
+        <a href="books.html">Books</a>
+        <a href="mybook.html">Create</a>
+        <a href="more.html">More</a>
         
        
     </nav>
@@ -21,6 +22,11 @@
         </p>
     
 <button class="create" id="create">create</button>
+
+
+
+
+
 
 <div class="container">
 <p>Books Types</p>
@@ -36,6 +42,61 @@
     <button id="mystery">Mystery</button>
 
 </div>
+   
+
+    <footer>
+        <h3>© 2021 E-Books</h3>
+    </footer>
+    
+    <script>
+    document.getElementById('create').addEventListener('click', function(event) {
+        event.preventDefault();
+        window.location.href='mybook.html';
+    });
+    
+    document.getElementById('funny').addEventListener('click', function(event) {
+        event.preventDefault();
+        window.location.href='funny.html';
+    });
+    document.getElementById('romantic').addEventListener('click', function(event) {
+        event.preventDefault();
+        window.location.href='romantic.html';
+    });
+    document.getElementById('scary').addEventListener('click', function(event) {
+        event.preventDefault();
+        window.location.href='scary.html';
+    });
+    document.getElementById('adventure').addEventListener('click', function(event) {
+        event.preventDefault();
+        window.location.href='adventure.html';
+    });
+    document.getElementById('action').addEventListener('click', function(event) {
+        event.preventDefault();
+        window.location.href='action.html';
+    });
+    document.getElementById('drama').addEventListener('click', function(event) {
+        event.preventDefault();
+        window.location.href='drama.html';
+    });
+    document.getElementById('mystery').addEventListener('click', function(event) {
+        event.preventDefault();
+        window.location.href='mystery.html';
+    });
+
+    document.addEventListener("DOMContentLoaded", function() {
+        document.getElementById("loginForm").addEventListener("click", function(event) {
+            event.preventDefault();
+            window.location.href = "login.html";
+        });
+    });
+
+    
+        document.addEventListener("DOMContentLoaded", function() {
+            document.getElementById("sign").addEventListener("click", function(event) {
+                event.preventDefault();
+                window.location.href = "sign.html";
+            });
+        });
 
 <script>
     document.getElementById('create').addEventListener('click', function(event) {
