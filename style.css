@@ -6,7 +6,7 @@ body{
 h1{
     color: #381F17;
     margin-top: 150px;
-    margin-left: 100px;
+    margin-left: 250px;
     font-size: 60px;
     
 }
@@ -166,6 +166,8 @@ footer{
     margin-left: -20px;
     margin-right: -6px;
     margin-bottom: -20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding-bottom: 10px;
    
     
 }
@@ -252,52 +254,30 @@ tbody tr:last-child {
 
 
 
-.account-info {
-    background-color: #f9f9f9;
-    padding: 20px;
-    margin: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 50%;
-    margin-left: 300px;
-
-    
 
 
-}
-#Username, #email, #membership{
-    margin-left: 100px;
-    margin-top: 20px;
-    font-size: 20px;
-    color: #381F17;
-    font-family: 'Poppins', sans-serif;
-}
-
-
-
-.info-item {
-    margin-bottom: 15px;
-}
-
-.saved-books h2{
-    margin-top: 40px;
-    margin-left: 50px;
-    font-size: 30px;
-    color: #381F17;
-    font-family: 'Poppins', sans-serif;
+@media only screen and (max-width: 480px) {
+    h1 {
+        font-size: 30px;
+        margin-left: 20px;
+    }
+    #par, p {
+        font-size: 18px;
+        margin-left: 20px;
+    }
+    nav a {
+        font-size: 18px;
+        padding: 10px 12px;
+    }
+    .type button {
+        padding: 5px;
+        font-size: 12px;
+    }
+    .box {
+        grid-template-columns: 1fr;
+    }
+    .card {
+        width: 90%;
+    }
 }
 
-
-
-
-.book {
-    display: inline-block;
-    margin-left: 40px;
-}
-
-.book img {
-    width: 150px;
-    height: 200px;
-    display: block;
-    margin-bottom: 10px;
-}

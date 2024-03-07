@@ -4,42 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Account</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="count.css">
 </head>
 <body>
-    <header>
-         <h2>Account Information</h2>
-    </header>
+  
     
-    <nav>
-        
-            <a href="main.html">Home</a>
-            <a href="mybook.html">Create</a>
-            <a href="account.html">Account</a>
-        
+    <nav class="main-nav">
+        <a href="main.html">Home</a>
+        <a href="mybook.html">Create</a>
+        <a href="account.html" class="active">Account</a>
     </nav>
     
-     
-    <main>
+    <main class="main-content">
         <section class="account-info">
-           
-            <div class="info-item">
-                <img src="photos/user.jpg" width="20%">
-                <p>Username:</p>
-                <p id="Username">Cyrine Fakhfakh</p>
-            </div>
-            <div class="info-item">
-                <p>Email:</p>
-                <p id="email">Cyrinefakhfakh03@gmail.com</p>
-            </div>
-            <div class="info-item">
-                <p>Membership:</p>
-                <p id="membership">Premium</p>
+            <img src="photos/user.jpg" alt="User Profile Picture" class="profile-pic">
+            <div class="info">
+                <p><strong>Username:</strong> Cyrine Fakhfakh</p>
+                <p><strong>Email:</strong> Cyrinefakhfakh03@gmail.com</p>
+                <p><strong>Membership:</strong> Premium</p>
+                <button class="btn edit-profile">Edit Profile</button>
             </div>
         </section>
-        
-        
-      
     </main>
+    
+    <footer class="main-footer">
+        <p>2024 E-Books Website. All rights reserved.</p>
+    </footer>
 </body>
 </html>
