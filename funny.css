@@ -1,5 +1,5 @@
 body{
-    background-image: url("backround\ \(1\).png");
+    background-image: url("photos/backround\ \(1\).png");
     background-size: cover;      
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -39,7 +39,31 @@ button{
 h1{
     font-size: 3.5rem;
     color: #E9D8CB;
-    margin-left: 200px;
-    margin-top: 0px;
+    margin-left: 570px;
+    margin-top: 30px;
     font-family:cursive;
+}
+
+nav{
+    background-color: #381F17;
+    padding: 10px;
+    margin-bottom: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+    left: 0;
+}
+nav a{
+    color: #e1b2a3;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 14px 16px;
+    font-style: normal;
+    font-size: 20px;
+
+}
+nav a:hover{
+    color: #fff;
+text-decoration: none;
 }
